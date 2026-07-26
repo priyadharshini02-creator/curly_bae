@@ -1,0 +1,350 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#fff5f8;
+    color:#333;
+    overflow-x:hidden;
+}
+
+/* Navigation */
+nav{
+    background:#8B004B;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    flex-wrap:wrap;
+}
+
+.logo{
+    color:white;
+    font-size:32px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    flex-wrap:wrap;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:#ffd6e7;
+}
+
+/* Hero Section */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.hero-text{
+    flex:1;
+    min-width:300px;
+}
+
+.hero-text h1{
+    font-size:48px;
+    color:#8B004B;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:20px;
+    line-height:1.6;
+    margin-bottom:25px;
+}
+
+.hero-image{
+    flex:1;
+    min-width:300px;
+    text-align:center;
+}
+
+.hero-image img{
+    width:320px;
+    max-width:100%;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+/* Buttons */
+.btn,
+button{
+    background:#d63384;
+    color:white;
+    text-decoration:none;
+    border:none;
+    padding:12px 28px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:17px;
+    display:inline-block;
+}
+
+.btn:hover,
+button:hover{
+    background:#8B004B;
+}
+
+/* Featured Section */
+.featured{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.featured h2{
+    color:#8B004B;
+    font-size:36px;
+    margin-bottom:25px;
+}
+
+.featured img{
+    width:250px;
+    max-width:100%;
+    height:auto;
+    border-radius:15px;
+    display:block;
+    margin:20px auto;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+.featured h3{
+    margin-top:20px;
+    font-size:30px;
+}
+
+.featured p{
+    margin:15px;
+    font-size:18px;
+}
+
+/* Why Choose */
+.why{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.card{
+    width:280px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+/* Reviews */
+.reviews{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.review{
+    background:white;
+    width:80%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+/* Instagram */
+.instagram{
+    text-align:center;
+    padding:60px 20px;
+}
+
+/* Footer */
+footer{
+    background:#8B004B;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+@media (max-width:768px){
+
+    nav{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:10px 15px;
+    }
+
+    .logo{
+        font-size:20px;
+    }
+
+    nav ul{
+        display:flex;
+        gap:6px;
+        margin:0;
+        padding:0;
+        list-style:none;
+    }
+
+    nav ul li{
+        margin:0;
+    }
+
+    nav ul li a{
+        font-size:11px;
+        white-space:nowrap;
+    }
+
+}
+/* Product Page */
+.products{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:40px;
+    flex-wrap:wrap;
+    padding:50px 20px;
+}
+
+.product-card{
+    width:300px;
+    background:#fff;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+.product-card img{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:12px;
+    display:block;
+    margin:0 auto 15px;
+}
+
+.product-card h3{
+    color:#8B004B;
+    margin-bottom:10px;
+}
+
+.product-card p{
+    margin:8px 0;
+}
+
+.product-container{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:40px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.about-section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 30px;
+    line-height: 1.8;
+}
+
+.about-section h2,
+.about-section h3 {
+    color: #7a2d4d;
+    margin-bottom: 15px;
+}
+
+.about-section p {
+    margin-bottom: 25px;
+}
+
+.space {
+    height: 60px;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    padding: 25px;
+    width: 280px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.navbar {
+    background: #7a2d4d;
+    padding: 15px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.logo {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+https://priyadharshini02-creator.github.io/curly_bae/index.html
+.insta-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.insta-gallery img {
+    width: 250px;
+    border-radius: 12px;
+}
+/*
