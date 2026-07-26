@@ -1,0 +1,193 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#fff5f8;
+    color:#333;
+    overflow-x:hidden;
+}
+
+/* Navigation */
+nav{
+    background:#8B004B;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    flex-wrap:wrap;
+}
+
+.logo{
+    color:white;
+    font-size:32px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    flex-wrap:wrap;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:#ffd6e7;
+}
+
+/* Hero Section */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.hero-text{
+    flex:1;
+    min-width:300px;
+}
+
+.hero-text h1{
+    font-size:48px;
+    color:#8B004B;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:20px;
+    line-height:1.6;
+    margin-bottom:25px;
+}
+
+.hero-image{
+    flex:1;
+    min-width:300px;
+    text-align:center;
+}
+
+.hero-image img{
+    width:320px;
+    max-width:100%;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+/* Buttons */
+.btn,
+button{
+    background:#d63384;
+    color:white;
+    text-decoration:none;
+    border:none;
+    padding:12px 28px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:17px;
+    display:inline-block;
+}
+
+.btn:hover,
+button:hover{
+    background:#8B004B;
+}
+
+/* Featured Section */
+.featured{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.featured h2{
+    color:#8B004B;
+    font-size:36px;
+    margin-bottom:25px;
+}
+
+.featured img{
+    width:250px;
+    max-width:100%;
+    height:auto;
+    border-radius:15px;
+    display:block;
+    margin:20px auto;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+.featured h3{
+    margin-top:20px;
+    font-size:30px;
+}
+
+.featured p{
+    margin:15px;
+    font-size:18px;
+}
+
+/* Why Choose */
+.why{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.card{
+    width:280px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+/* Reviews */
+.reviews{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.review{
+    background:white;
+    width:80%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+/* Instagram */
+.instagram{
+    text-align:center;
+    padding:60px 20px;
+}
+
+/* Footer */
+footer{
+    background:#8B004B;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/*
